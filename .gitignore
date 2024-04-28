@@ -36,3 +36,5 @@ poetry.lock
 # lock files
 *.lock
 poetry.lock
+
+myenv
