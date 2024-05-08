@@ -7,7 +7,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![](https://dcbadge.vercel.app/api/server/gkxQDAjfeX)](https://discord.gg/gkxQDAjfeX)
 
+---
+MENKGE's NOTE ==
+4/28 - tried this, it only ran the example code. It didn't run for the website that I need the information.
 
+---
 ScrapeGraphAI is a *web scraping* python library that uses LLM and direct graph logic to create scraping pipelines for websites, documents and XML files.
 Just say which information you want to extract and the library will do it for you!
 
@@ -97,7 +101,7 @@ graph_config = {
 smart_scraper_graph = SmartScraperGraph(
     prompt="List me all the articles",
     # also accepts a string with the already downloaded HTML code
-    source="https://perinim.github.io/projects",  
+    source="https://perinim.github.io/projects",
     config=graph_config
 )
 
@@ -129,7 +133,7 @@ result = smart_scraper_graph.run()
 print(result)
 ```
 
-### Case 4: Extracting information using Gemini 
+### Case 4: Extracting information using Gemini
 ```python
 from scrapegraphai.graphs import SmartScraperGraph
 GOOGLE_APIKEY = "YOUR_API_KEY"

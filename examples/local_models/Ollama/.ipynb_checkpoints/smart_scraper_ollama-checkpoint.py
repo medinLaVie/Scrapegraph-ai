@@ -1,6 +1,4 @@
-#!/usr/bin/env python
-
-"""
+""" 
 Basic example of scraping pipeline using SmartScraper
 """
 from scrapegraphai.graphs import SmartScraperGraph
@@ -29,10 +27,9 @@ graph_config = {
 # ************************************************
 
 smart_scraper_graph = SmartScraperGraph(
-    prompt="List me all the stories with their title, url, content.",
+    prompt="List me all the news with their description.",
     # also accepts a string with the already downloaded HTML code
-    # source="https://perinim.github.io/projects",
-    source="https://www.literotica.com/c/first-time-sex-stories",
+    source="https://perinim.github.io/projects",
     config=graph_config
 )
 
